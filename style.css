@@ -34,28 +34,44 @@ h1{
 }
 
 
+.disk {
+    cursor:grab;
+}
+
 #disco4{
     width: 300px;
     height: 60px;
     background-color: crimson;
+    border: solid black 4px;
+    border-radius: 10px;
+    
 }
 
 #disco3{
     width: 250px;
     height: 60px;
     background-color: darkgray;
+    border: solid black 4px;
+    border-radius: 10px;
+    
 }
 
 #disco2{
     width: 200px;
     height: 60px;
     background-color: darksalmon;
+    border: solid black 4px;
+    border-radius: 10px;
+    
 }
 
 #disco1{
     width: 150px;
     height: 60px;
     background-color: deepskyblue;
+    border: solid black 4px;
+    border-radius: 10px;
+    
 }
 
 #rodape {
