@@ -6,11 +6,13 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    background-color: white;
 }
 
 body{
     display: flex;
     flex-direction: column;
+    background-color: #537EFF;
 }
 
 #geral{
@@ -21,10 +23,14 @@ body{
 }
 
 h1{
-    color: blueviolet;
+    color: #032380;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
 }
 
 
@@ -50,4 +56,16 @@ h1{
     width: 150px;
     height: 60px;
     background-color: deepskyblue;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 30px;   
+    color:white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
