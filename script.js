@@ -15,4 +15,29 @@
 
 // --- --- --- Passos
 // 1. Preciso saber o que é um handler de evento. 
+// 2. como remover uma barra e adicionar à outra div
+// 3. como mover o disco para a div que eu quero
+// 4. criei várias div no html. Será necessário colocar todas na memória com let? Ou será melhor usar createElement?
 
+/* Discos */
+
+let disco1 = document.getElementById("disco1")
+let disco2 = document.getElementById("disco2")
+let disco3 = document.getElementById("disco3")
+let disco4 = document.getElementById("disco4")
+
+/* Torres */
+
+let inicio = document.getElementById("inicio")
+let meio = document.getElementById("meio")
+let final = document.getElementById("final")
+
+function move() {
+    meio.appendChild(disco1)
+}
+
+
+disco1.onclick = move
+disco2.onclick = move
+disco3.onclick = move
+disco4.onclick = move
