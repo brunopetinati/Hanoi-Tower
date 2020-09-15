@@ -33,17 +33,25 @@ let torre1 = document.getElementById("inicio")
 let torre2 = document.getElementById("meio")
 let torre3 = document.getElementById("final")
 
-let disco = [] 
 
-torre1.onclick = function() {
+
+torre1.addEventListener('click',function(e) {
+    let x = e.currentTarget.lastElementChild;
+
+    torre2.onclick = function() {
+        torre2.appendChild(x)
+    }
     
-}
+})
 
-torre2.onclick = function() {
-    torre2.appendChild(disco1) 
-}
 
 torre3.onclick = function() {
 
 }
 
+
+
+
+
+
+//currentTarget 
