@@ -36,43 +36,33 @@ h1{
 
 .disk {
     cursor:grab;
-}
+    border: solid black 4px;
+    border-radius: 11px; 
+    }
 
 #disco4{
     width: 300px;
     height: 60px;
-    background-color: crimson;
-    border: solid black 4px;
-    border-radius: 10px;
-    
-}
+    background-color: crimson;   
+    }
 
 #disco3{
     width: 250px;
     height: 60px;
-    background-color: darkgray;
-    border: solid black 4px;
-    border-radius: 10px;
-    
-}
+    background-color: darkgray;    
+    }
 
 #disco2{
     width: 200px;
     height: 60px;
-    background-color: darksalmon;
-    border: solid black 4px;
-    border-radius: 10px;
-    
-}
+    background-color: darksalmon;   
+    }
 
 #disco1{
     width: 150px;
     height: 60px;
-    background-color: deepskyblue;
-    border: solid black 4px;
-    border-radius: 10px;
-    
-}
+    background-color: deepskyblue;   
+    }
 
 #rodape {
     display: flex;
