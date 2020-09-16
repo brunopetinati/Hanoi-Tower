@@ -103,9 +103,7 @@ h1 {
 }
 
 #rodape {
-/*     display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
+
     display: flex;
     flex-direction: row;
     width: 780px;
@@ -137,6 +135,56 @@ h1 {
 }
 
 
-/* #rodape3 {
-    margin-left: 2%;
-}  */
+@media screen and (max-width: 768px)    
+
+{
+
+    body {
+        width: 780px;
+    }
+
+    .torres {
+        background-color: rgb(183, 240, 218);
+        margin: 8px;
+        cursor: grab;
+        transition:0.4s;
+        width: 50px;
+    }
+
+    .disco0 {
+        width: 80px;
+        height: 37px;
+        background-color: red;
+        border: solid black 3px;
+        border-radius: 10px;
+    }
+    
+    .disco1 {
+        width: 130px;
+        height: 37px;
+        background-color: blue;
+        border: solid black 3px;
+        border-radius: 10px;
+    }
+    
+    .disco2 {
+        width: 175px;
+        height: 37px;
+        background-color: yellow;
+        border: solid black 3px;
+        border-radius: 10px;
+    }
+    
+    .disco3 {
+        width: 200px;
+        height: 37px;
+        background-color: green;
+        border: solid black 3px;
+        border-radius: 10px;
+    }
+
+    #rodape {
+        color: #537EFF;
+    }
+    
+}
